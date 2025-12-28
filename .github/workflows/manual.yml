@@ -4,7 +4,7 @@ on:
     inputs:
       greeting: #入力パラメータ名
         type: string #文字列型
-   	    default: Hello #入力パラメータのデフォルト値
+        default: Hello #入力パラメータのデフォルト値
         required: true #入力パラメータの必須フラグ
         description: A cheerful word #入力パラメータの説明
 
