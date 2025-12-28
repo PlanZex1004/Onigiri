@@ -1,5 +1,5 @@
-name: Hello #ƒ[ƒNƒtƒ[–¼
-on:push #ƒCƒxƒ“ƒgiƒvƒbƒVƒ…j
+name: Hello #ãƒ¯ãƒ¼ã‚¯ãƒ•ãƒ­ãƒ¼å
+on: push #ã‚¤ãƒ™ãƒ³ãƒˆï¼ˆãƒ—ãƒƒã‚·ãƒ¥æ™‚ï¼‰
 jobs:
 hello:
 runs-on:ubuntu-latest
