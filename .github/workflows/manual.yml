@@ -1,15 +1,15 @@
 name: Manual
 on:
-  workflow_dispatch: #è“®ÀsƒCƒxƒ“ƒg
+  workflow_dispatch: #æ‰‹å‹•å®Ÿè¡Œã‚¤ãƒ™ãƒ³ãƒˆ
     inputs:
-      greeting: #“ü—Íƒpƒ‰ƒ[ƒ^–¼
-	    type: string #•¶š—ñŒ^
-   	    default: Hello #“ü—Íƒpƒ‰ƒ[ƒ^‚ÌƒfƒtƒHƒ‹ƒg’l
-	    required: true #“ü—Íƒpƒ‰ƒ[ƒ^‚Ì•K{ƒtƒ‰ƒO
-        description: A cheerful word #“ü—Íƒpƒ‰ƒ[ƒ^‚Ìà–¾
+      greeting: #å…¥åŠ›ãƒ‘ãƒ©ãƒ¡ãƒ¼ã‚¿å
+        type: string #æ–‡å­—åˆ—å‹
+   	    default: Hello #å…¥åŠ›ãƒ‘ãƒ©ãƒ¡ãƒ¼ã‚¿ã®ãƒ‡ãƒ•ã‚©ãƒ«ãƒˆå€¤
+	    required: true #å…¥åŠ›ãƒ‘ãƒ©ãƒ¡ãƒ¼ã‚¿ã®å¿…é ˆãƒ•ãƒ©ã‚°
+        description: A cheerful word #å…¥åŠ›ãƒ‘ãƒ©ãƒ¡ãƒ¼ã‚¿ã®èª¬æ˜
 
 jobs:
   run:
     runs-on: ubuntu-latest
     steps:
-      - run: echo "${{ inputs.greeting }}" # “ü—Íƒpƒ‰ƒ[ƒ^ugreetingv‚ÌQÆ
+      - run: echo "${{ inputs.greeting }}" # å…¥åŠ›ãƒ‘ãƒ©ãƒ¡ãƒ¼ã‚¿ã€Œgreetingã€ã®å‚ç…§
