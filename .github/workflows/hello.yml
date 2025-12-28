@@ -1,8 +1,8 @@
 name: Hello #ワークフロー名
 on: push #イベント（プッシュ時）
 jobs:
-hello:
-runs-on:ubuntu-latest
-steps:
-- run: echo "Hello, world"
-- uses: action/checkout@v4
+ hello:
+  runs-on: ubuntu-latest
+  steps:
+   - run: echo "Hello, world"
+   - uses: action/checkout@v4
